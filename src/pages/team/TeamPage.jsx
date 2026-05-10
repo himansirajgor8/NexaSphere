@@ -56,7 +56,7 @@ function MemberCard({ member, idx, onClick }) {
       <div className="team-card-role">{member.role}</div>
       <div className="team-card-chips">
         <span className="chip-branch">{member.branch}</span>
-        <span className="chip-section">§{member.section}</span>
+        <span className="chip-section">Sec {member.section}</span>
       </div>
       <div className="team-card-hint">Click to view ↗</div>
       <div className="corner-tl" /><div className="corner-br" />
