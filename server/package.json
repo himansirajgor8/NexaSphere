@@ -9,13 +9,19 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   }
+
   "dependencies": {
+    "@sentry/node": "^7.84.0",
+    "@sentry/profiling-node": "^7.84.0",
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "ejs": "^5.0.2",
     "express": "^4.19.2",
+    "express-validator": "^7.0.0",
     "googleapis": "^140.0.1",
+    "morgan": "^1.10.0",
     "pg": "^8.20.0",
+    "winston": "^3.11.0",
     "zod": "^4.4.3"
   },
   "devDependencies": {
